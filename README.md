@@ -613,3 +613,29 @@ Some models I have had luck with:
 Just in general this is a moving target you will want to keep up with new model releases and use what fits your needs. 
 
 [https://ollama.com/library](https://ollama.com/library)
+
+### Service management and uninstall
+
+From time to time you may need to update your containers or stop them: 
+
+Update: 
+
+```bash
+cd openwebui
+docker compose pull
+docker compose up -d
+```
+
+Stop services: 
+
+```bash
+cd openwebui
+docker compose down
+```
+
+After the stack is stopped you can uninstall all data with:
+
+```bash
+cd ~
+sudo rm -Rf openwebui/
+```
