@@ -593,7 +593,7 @@ mkdir openwebui && cd openwebui
 curl -sSL https://raw.githubusercontent.com/thelamer/bc250-ollama-openwebui/master/compose-setup.sh | bash
 ```
 
-You will then be able to access https://<yourip>, setup your admin account, and start using Open WebUI.
+You will then be able to access https://yourip, setup your admin account, and start using Open WebUI.
 
 TTS is pre-setup with this stack
 
